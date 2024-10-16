@@ -4,12 +4,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "node src/rag/index.js"
+  },
   "dependencies": {
-    "@langchain/community": "^0.3.3",
-    "@langchain/core": "^0.3.3",
+    "@langchain/community": "^0.3.5",
+    "@langchain/core": "^0.3.11",
     "@langchain/ollama": "^0.1.0",
     "cheerio": "^1.0.0",
     "dotenv": "^16.4.5",
+    "faiss-node": "^0.5.1",
     "ignore": "^6.0.2",
     "jsonwebtoken": "^9.0.2",
     "langchain": "^0.3.2",
